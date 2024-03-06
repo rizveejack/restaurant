@@ -10,6 +10,9 @@ const config: Config = {
         './src/partials/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     theme: {
+        fontFamily: {
+            poppins: ['var(--font-poopins)'],
+        },
         extend: {},
     },
     plugins: [],

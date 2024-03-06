@@ -3,4 +3,12 @@
 @tailwind utilities;
 
 
+@layer utilities {
+  .roundButton{
+    border-radius: 1rem 0.5rem 3rem 1.5rem;
+}
+.styleButton{
+  border-radius: 1.5rem 1.5rem 0.2rem 1.5rem
+}
+}
 
